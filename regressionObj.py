@@ -1,8 +1,13 @@
+#import numpy for matrix operations
 import numpy as np
+#abc is for implementing abstract classes
 from abc import ABC, abstractmethod
+
+#sklearn is used for implementing some methods
 from sklearn import linear_model
 import sklearn.metrics.pairwise as pr
 import sklearn.kernel_ridge as kr
+#Just need this as an eigensolver
 from scipy.linalg import eig
 
 #NOTES
