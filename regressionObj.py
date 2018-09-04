@@ -25,6 +25,7 @@ def geig(A, B):
 # def findError(A, x, b):
 #     return np.linalg.norm((A @ x) - b)
 
+#Create a dataset to experiment with. Can be linear or nonlinear
 def createTheta(thetaSize, noise=0, linear=False):
     if linear:
         theta = np.random.uniform(-1, 1, (thetaSize, 1))
